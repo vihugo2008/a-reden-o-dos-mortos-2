@@ -1,0 +1,61 @@
+ body{
+ font-family:"Edu AU VIC WA NT Pre", cursive;
+ background-image: url("fundo.png");
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+ color: #FFEB3B;
+ font-weight: 1000;
+ text-shadow: 4px 4px 4px black;
+ font-size: 35px;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ }
+ img{
+ max-width: 90%;
+ }
+footer{
+ font-family: "Oswald", sans-serif;
+ color: rgb(240,14,14);
+ font-weight: 500;
+ font-size: 25px;
+ }
+
+.nomelink{
+ text-decoration:none;
+ color: white;
+ }
+
+ .nomelink:hover{
+ color:white;
+ text-decoration: underline;
+ }
+ button{
+ font-family:"Sour Gummy", sans-serif;
+font-size: 25px;
+ background-color: rgb(248,14,14);
+ border: 1px solid #FFC107;
+ color: #2196F3;
+ margin: 20px;
+border-radius: 200px;
+ padding: 15px;
+ text-shadow: 1px 2px 2px black;
+ }
+ button:hover{
+ background-color: COR DO BOTÃO AO PASSAR A MÃO;
+ border: 1px solid COR DA BORDA BOTÃO AO PASSAR A MÃO;
+ font-weight: 800;
+ color: COR DA LETRA AO PASSAR A MÃO;
+}
+ main{
+ max-width: 90%;
+ flex:1;
+ padding: 1em;
+ }
+ .passo{
+ display: none;
+ }
+ .passo.ativo{
+ display: block;
+ }

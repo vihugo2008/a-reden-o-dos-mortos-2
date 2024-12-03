@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Oswald:wght@200..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <div class="passo ativo" id="passo-0">
+        <img src="logo.png">
+        <p> Em 1899, no coração das Montanhas Rochosas, Arthur Morgan, um fora da lei robusto e de olhar penetrante, enfrenta a tempestade de uma vida em constante mudança. Seu cabelo desgrenhado e a barba por fazer refletem suas batalhas, enquanto ele observa o acampamento da gangue Van der Linde ao entardecer. A luz do sol se despede, tingindo o céu com matizes de laranja e roxo. O aroma do café e da carne assada permeia o ar, enquanto as fogueiras crepitam ao redor.
+
+Ao seu lado está John Marston, um jovem de espírito indomável, sempre vestindo sua jaqueta de couro surrada e seu chapéu desgastado. A amizade entre eles é profunda, forjada em batalhas e dilemas morais. Dutch, o carismático líder da gangue, com sua voz encantadora e planos grandiosos, aparece discutindo sobre um possível golpe. Sadie Adler, uma mulher feroz com um passado de perdas, observa com cautela, pronta para agir.
+
+Com a noite caindo, Arthur se vê diante de uma escolha crucial: seguir Dutch em busca de uma vida melhor ou proteger John e sua família, ameaçados por uma rivalidade violenta. </p>
+        <button class= "proximo" data-proximo="1"> Seguir Dutch. </button>
+        
+        
+         <button class= "proximo" data-proximo="2"> Proteger John.  </button>
+        </div>
+        
+      
+      <div class="passo" id="passo-1">
+          <img src="logo.png">
+          <p>
+            Arthur decide seguir Dutch. Montados em seus cavalos, eles se dirigem para o noroeste, em direção à cidade abandonada de Limpia, onde rumores de um tesouro escondido circulam. A atmosfera é carregada de expectativa e tensão, e os ecos de um passado sombrio reverberam nas montanhas.
+
+Ao chegarem a Limpia, duas opções se apresentam: explorar um banco em ruínas, onde se acredita que o tesouro está guardado, ou investigar um armazém que parece ter sido esquecido pelo tempo.
+            </p>
+        
+         <button class="proximo" data-proximo="3">
+             Explorar o banco.
+          </button>
+          
+          <button class="proximo" data-proximo="4">
+          Investigar o armazém.
+          </button>
+
+      </div>
+        
+        <div class="passo" id="passo-2">
+          <img src="logo.png">
+          <p>
+            Arthur decide ficar ao lado de John. Eles sabem que a família de John está em perigo devido a uma rivalidade com uma gangue local. Ao se aventurarem pelas colinas, avistam um acampamento inimigo. John sugere um ataque furtivo, mas Arthur hesita, ponderando sobre as consequências de uma ação precipitada.
+
+Eles se deparam com duas rotas: uma leva a um denso bosque que pode proporcionar uma fuga segura, e a outra a um caminho direto para o acampamento, onde a emboscada pode ser mortal.
+          </p>
+          
+          <button class="proximo" data-proximo="5">
+             Avançar pela floresta.
+          </button>
+          
+          <button class="proximo" data-proximo="6">
+          Atacar o acampamento inimigo.
+          </button>
+
+      </div>
+      
+       <div class="passo" id="passo-3">
+          <img src="logo.png">
+          <p>
+           Arthur e Dutch entram no banco empoeirado, onde o silêncio é quebrado apenas pelo som de seus passos. As prateleiras estão abarrotadas de documentos antigos e o cheiro de mofo é forte. No fundo, uma porta leva a um cofre misterioso, que promete segredos e riquezas.
+
+Enquanto investigam, encontram um diário que revela a localização de uma fortuna escondida. Mas, antes que possam comemorar, ouvem barulhos de passos se aproximando. O perigo se aproxima. 
+          </p>
+          
+          <button class="proximo" data-proximo="9">
+            Abrir o cofre.
+          </button>
+          
+          <button class="proximo" data-proximo="10">
+         Fugir antes que sejam descobertos.
+         </button>
+          
+      </div>
+      
+      
+       <div class="passo" id="passo-4">
+          <img src="ganhou.png">
+          <p>
+            Arthur e Dutch optam por investigar o armazém. Ao entrarem, uma cena impressionante os aguarda: membros de uma gangue rival estão fazendo um acordo com um traidor da cidade. O cheiro de pólvora no ar é inconfundível, e Arthur percebe que têm a chance de desmantelar essa aliança traiçoeira.
+
+Se escondendo, eles se preparam para agir. Um plano audacioso pode garantir a vitória e o tesouro.
+
+Você ganhou! Com astúcia, Arthur e Dutch conseguem interromper a negociação, fugindo com um mapa que indica a localização de uma fortuna em ouro. Ao retornarem ao acampamento, novos aliados e recursos fortalecem a gangue.
+          </p>
+          
+          <button class="proximo" data-proximo="0">
+            Reiniciar?
+          </button>
+          
+      </div>
+      
+      
+       <div class="passo" id="passo-5">
+          <img src="logo.png">
+          <p>
+            Arthur e John optam por se esconder na floresta. Eles se movem silenciosamente entre as árvores, evitando um confronto direto. No entanto, percebem que estão sendo perseguidos por bandidos. Depois de uma intensa fuga, encontram duas saídas: uma leva a um rio, onde podem escapar, e a outra a uma clareira, onde a emboscada pode ser mortal.
+
+          </p>
+          
+          <button class="proximo" data-proximo="7">
+             Rumo ao rio.
+          </button>
+          
+          <button class="proximo" data-proximo="8">
+         Rumo à clareira
+         </button>
+          
+      </div>
+      
+       <div class="passo" id="passo-6">
+          <img src="perdeu.png">
+          <p>
+            Arthur e John decidem atacar. A luta é feroz e caótica. Eles enfrentam muitos inimigos, mas a batalha toma um rumo inesperado quando John se machuca gravemente. Arthur, percebendo a gravidade da situação, é forçado a recuar. Eles conseguem escapar, mas a confiança de John em Arthur é abalada.
+
+Você perdeu! A lealdade de Arthur é testada, levando-o a questionar suas escolhas e o futuro da gangue.
+          </p>
+          
+          <button class="proximo" data-proximo="0">
+             Reiniciar?
+          </button>
+          
+      </div>
+      
+      
+       <div class="passo" id="passo-7">
+          <img src="ganhou.png">
+          <p>
+          Arthur e John optam por se dirigir ao rio. Ao chegarem à margem, encontram um barco à deriva. Rapidamente, eles se embrenham na água e, com a correnteza, conseguem escapar dos bandidos. O alívio é palpável, e a amizade entre eles se fortalece.
+
+Você ganhou! Com a fuga, Arthur e John planejam se fortalecer, prontos para enfrentar a gangue rival em uma batalha decisiva.  
+          </p>
+          
+          <button class="proximo" data-proximo="0">
+             Reiniciar?
+          </button>
+          
+      </div> <div class="passo" id="passo-8">
+          <img src="logo.png">
+          <p>
+          Arthur, agora mais sábio e determinado, se vê diante de um dilema novamente: seguir Dutch em sua busca por um futuro incerto ou proteger John e seus valores. O ciclo se repete, cada escolha moldando seu destino no Velho Oeste.
+        
+      
+       <div class="passo" id="passo-9">
+          <img src="ganhou.png">
+          <p>
+           Ao optar por proteger seus amigos e buscar justiça, Arthur se torna uma lenda na região. Ele inspira outros a lutar por um futuro melhor, estabelecendo um legado que resistirá ao tempo. 
+          </p>
+          
+          <button class="proximo" data-proximo="0">
+             Reiniciar?
+          </button>
+          
+      </div>
+      
+      
+       <div class="passo" id="passo-10">
+          <img src="perdeu.png">
+          <p>
+            Se tivesse seguido Dutch cegamente, Arthur se encontraria em uma armadilha mortal, perdendo tudo o que amava e se tornando um fugitivo sem propósito, simbolizando os perigos da ambição desenfreada.
+
+          </p>
+          
+          <button class="proximo" data-proximo="0">
+             Reiniciar?
+            
+          </button>
+        
+      </div>
+      
+      <p> Jogo produzido por <a href="https://github.com/SEUGITHUB"
+class="nomelink"> Victor Hugo
+        
+        </a> </p></footer>
+ <script src="sketch.js"></script>
+      
+          
+    <script src="sketch.js"></script>
+  </body>
+</html>
